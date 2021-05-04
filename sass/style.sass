@@ -1,0 +1,43 @@
+*
+  box-sizing: border-box
+  color: #ffffff
+  outline: none
+body
+  background: #242B33
+.title
+  font-family: PT Sans
+  font-style: normal
+  font-weight: bold
+  font-size: 42px
+  line-height: 44px
+  margin-bottom: 20px
+  display: flex
+  align-items: center
+  text-transform: uppercase
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    display: block
+    width: 90px
+    height: 7px
+    top: -30px
+    background: #C8A35F
+.wrapper
+  max-width: 1140px
+  margin: auto
+  padding: 20px
+
+.map1
+  margin-top: 220px
+
+@import "block/header"
+@import "block/about"
+@import "block/way"
+@import "block/objects"
+@import "block/service"
+@import "block/process"
+@import "block/price"
+@import "block/forms"
+@import "block/footer"
+@import "block/media"

@@ -1,0 +1,153 @@
+@media ( max-width: 1140px )
+  .way
+    .block
+      justify-content: center
+  .service__block
+    justify-content: center
+    &-item
+      margin: 10px
+  .about
+    &-title
+      position: relative
+    &-p
+      margin: auto
+  .text
+    width: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+  .block
+    margin: 30px auto
+@media ( max-width: 992px )
+  .decor5,
+    display: none
+  .decor3
+    display: none
+  .about
+    margin-top: 160px
+  .price
+    margin-top: 120px
+  .forms
+    margin-top: 100px
+  .header-info
+    position: absolute
+  .service-block
+    justify-content: center
+  .service
+    & p
+      text-align: center
+  .forms
+    & .form__input
+      margin-right: 0
+  .footer
+    &-info
+      justify-content: center
+
+  .header-link
+    margin-right: 0
+
+  .header-list
+    position: fixed
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    top: 0
+    right: -999%
+    width: 50%
+    height: 100vh
+    padding: 20px 15px
+    background-color: rgba(0, 0, 0, 0.8)
+    transition: 0.6s all
+  .header-link
+    padding: 10px 0px
+    & a
+      font-size: 19px
+  .header-list_active
+    right: 0
+    z-index: 9
+    margin-top: 0
+    justify-content: center
+  .hamburger
+    display: block
+    position: fixed
+    right: 30px
+    z-index: 99
+    top: 73px
+    transform: translateY(-50%)
+    width: 26px
+    height: 12px
+
+  .hamburger span
+    display: block
+    height: 2px
+    width: 100%
+    background-color: #d4c17f
+    margin-bottom: 6px
+    transition: 0.5s all
+
+  .hamburger_active span
+    margin-bottom: -2px
+
+  .hamburger_active span:nth-child(1)
+    transform: translateY(3px) rotate(-45deg)
+
+  .hamburger_active span:nth-child(2)
+    display: none
+
+  .hamburger_active span:nth-child(3)
+    transform: translateY(3px) rotate(45deg)
+
+  .service__block
+    justify-content: center
+    &-item
+      margin: 10px
+      & .img
+        display: block
+@media ( max-width: 676px )
+  .price
+    p
+      font-size: 14px
+      display: flex
+      flex-wrap: wrap
+      margin: 30px
+  img.decor
+    display: none
+  .about
+    .block
+      display: block
+      min-height: 300px
+      .white
+        margin: 20px
+      .gold
+        display: none
+  .objects
+    .block
+      display: flex
+      margin: 0
+      min-height: 300px
+      justify-content: center
+
+@media ( max-width: 590px )
+
+  .header
+    &-info
+      display: none
+    &-list
+      width: 100%
+    &-title
+      font-size: 30px
+  .slide
+    margin: 20px
+    padding: 20px
+  .forms
+    &-info
+      flex-wrap: wrap
+      justify-content: center
+  .forms-info .phone, .forms-info .mail
+    margin: 20px
+    &:last-child
+      margin-right: 20px
+  .footer
+    &-info
+      .phone
+        margin-right: 10px
